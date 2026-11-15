@@ -1,0 +1,18 @@
+# Dependensi (besar dan bisa diinstal ulang dengan npm install)
+node_modules/
+
+# Rahasia: API key dan nomor telepon
+.env
+.env.*
+!.env.example
+
+# Sesi login WhatsApp (siapa pun yang memegang ini bisa masuk ke akunmu)
+.wwebjs_auth/
+.wwebjs_cache/
+
+# Database dan log
+data/
+*.db
+*.db-shm
+*.db-wal
+*.log
